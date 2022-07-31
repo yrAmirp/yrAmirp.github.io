@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline:none;
+  border: none;
+}
+
+.canvas {
+  width: 90vw;
+  height: 90vh;
+  color: #434155;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  background-image: url(space.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
